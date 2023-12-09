@@ -1,0 +1,1054 @@
+@media(max-width: 1400px){
+    .section{
+        height: auto;
+        /* position: relative; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* background-size: cover; */
+    }
+    .section .heading{
+        height: auto;
+        margin-bottom: 100px;
+        /* position: relative; */
+    }
+    .heading .h1{
+        font-size: 50px;
+        /* text-align: center; */
+    }
+    .secbtn{
+        /* height: auto; */
+        /* position: absolute; */
+        /* left: 30%; */
+    }
+    .section1{
+        /* height: auto; */
+        /* position: relative; */
+    }
+    .section1 .heading2{
+        /* height: auto; */
+        /* margin-top: 28px; */
+        /* text-align: center; */
+    }.lable{
+        /* height: auto; */
+        /* flex-direction: column; */
+        /* margin-top: 15px; */
+    }
+    .lable-h1{
+       /* height: auto; */
+       /* display: flex; */
+       /* justify-content: space-evenly; */
+       /* width: 30%; */
+       /* margin-left: -400px; */
+    }
+    .lable-h1 .text-light{
+        font-size: 30px;
+    }
+    .lable-p{
+        /* height: auto; */
+        /* margin-top: 15px; */
+        /* width: 60%; */
+    }
+    .lable-p .text-light{
+    }
+    .sec1btn{
+        /* height: auto; */
+        /* margin-bottom: -50px; */
+        /* margin-right: 300px; */
+        position: absolute;
+        bottom: -40px;
+        right: 55px;
+    }
+    .heading3{
+        height: auto;
+        margin-top: 30px;
+    }
+    .heading3 .h1{
+        font-size: 40px;
+    }   
+    .section2{
+        /* height: auto; */
+        /* flex-direction: column; */
+    }
+    .section2 .image{
+        width: 60%;
+        /* height: auto; */
+    }
+    .section2 .sec2abt{
+        width: 40%;
+        /* height: auto; */
+    }
+    .sec2abt p{
+        margin-top: 25px;
+    }
+    .section3{
+        /* height: auto; */
+        /* flex-direction: column; */
+    }
+    .section3 .sec3abt{
+        width: 40%;
+        /* height: auto; */
+    }
+    .sec3abt .p{
+        margin-top: 35px;
+        font-size: 30px;
+        /* text-align: center; */
+    }
+    .sec3abt .p2{
+        /* text-align: center; */
+        font-size: 20px;
+    }
+    .sec3abt #sec3btn{
+         /* margin-left: 150px; */
+    }
+    .sec3abt .h1{
+        /* font-size: 35px; */
+        /* text-align: center; */
+    }
+    .section3 .sec3img{
+        /* height: 800px; */
+        width: 60%;
+        /* margin-top: 50px; */
+    }
+    .imgabt{
+        /* height: 200px; */
+        /* width: 100%; */
+        /* bottom: 0; */
+    }
+    .imgabt .h2{
+        /* text-align: center; */
+    }
+    .imgabt .p{
+        /* text-align: center; */
+    }
+    .section4{
+        /* height: auto; */
+    }
+    .section4 .gellery{
+        /* height: auto; */
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .gellery .gellery1{
+        /* height: 700px; */
+        /* width: 100%; */
+    }
+    .gellery .gellery2{
+        /* height: 700px; */
+        /* width: 100%; */
+    }
+    .sec4abt{
+        height: auto;
+        /* width: 100%; */
+        /* bottom: 0; */
+    }
+    .sec4abt .h2{
+        /* font-size: 30px; */
+        /* text-align: center */
+    }
+    .sec4abt .p{
+        /* text-align: center; */
+    }
+    .section5{
+        height: auto;
+        width: 100%;
+    }
+    .section5 .p{
+        margin-top: 30px;
+    }
+    .section5 .h1{
+        font-size: 40px;
+        margin-top: -30px;
+    }
+    .section5 .info{
+        /* height: auto; */
+        /* width: inherit; */
+    }
+    .info .info1{
+        /* height: auto; */
+        /* width: 650px; */
+        /* margin-top: 15px; */
+        /* flex-direction: column; */
+    }
+    .info .info2{
+        /* height: auto; */
+        /* width: 650px; */
+        /* margin-top: 15px; */
+        /* flex-direction: column; */
+    }
+    .info input{
+        /* width: 90%; */
+        /* margin-top: 15px; */
+        /* border: none; */
+    }
+    .info .textarea{
+        /* width: 650px; */
+        /* margin-top: 15px; */
+    }
+    .section6{
+        /* height: auto; */
+        /* margin-top: 35px; */
+        /* flex-direction: column; */
+    }
+    .section6 .box{
+        /* width: 70%; */
+        /* margin-top: 15px; */
+    }
+}
+
+
+
+@media(max-width: 1200px){
+    .section{
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+    .section .heading{
+        height: auto;
+        margin-bottom: 100px;
+        position: relative;
+    }
+    .heading .h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .secbtn{
+        height: auto;
+        position: absolute;
+        left: 30%;
+    }
+    .section1{
+        /* height: auto; */
+        position: relative;
+    }
+    .section1 .heading2{
+        /* height: auto; */
+        /* margin-top: 28px; */
+        /* text-align: center; */
+    }.lable{
+        /* height: auto; */
+        /* flex-direction: column; */
+        /* margin-top: 15px; */
+    }
+    .lable-h1{
+       /* height: auto; */
+       /* display: flex; */
+       /* justify-content: space-evenly; */
+       /* width: 30%; */
+       /* margin-left: -400px; */
+    }
+    .lable-h1 .text-light{
+        font-size: 30px;
+    }
+    .lable-p{
+        /* height: auto; */
+        /* margin-top: 15px; */
+        /* width: 60%; */
+    }
+    .lable-p .text-light{
+    }
+    .sec1btn{
+        /* height: auto; */
+        /* margin-bottom: -50px; */
+        /* margin-right: 300px; */
+        position: absolute;
+        bottom: -40px;
+        right: 55px;
+    }
+    .heading3{
+        height: auto;
+        margin-top: 30px;
+    }
+    .heading3 .h1{
+        font-size: 40px;
+    }   
+    .section2{
+        /* height: auto; */
+        /* flex-direction: column; */
+    }
+    .section2 .image{
+        /* width: 100%; */
+        /* height: auto; */
+    }
+    .section2 .sec2abt{
+        /* width: 100%; */
+        /* height: auto; */
+    }
+    .sec2abt p{
+        margin-top: 25px;
+    }
+    .section3{
+        /* height: auto; */
+        /* flex-direction: column; */
+    }
+    .section3 .sec3abt{
+        width: 40%;
+        /* height: auto; */
+    }
+    .sec3abt .p{
+        /* margin-top: 25px; */
+        /* text-align: center; */
+    }
+    .sec3abt .p2{
+        /* text-align: center; */
+    }
+    .sec3abt #sec3btn{
+         /* margin-left: 150px; */
+    }
+    .sec3abt .h1{
+        /* font-size: 35px; */
+        /* text-align: center; */
+    }
+    .section3 .sec3img{
+        /* height: 800px; */
+        width: 60%;
+        /* margin-top: 50px; */
+    }
+    .imgabt{
+        /* height: 200px; */
+        /* width: 100%; */
+        /* bottom: 0; */
+    }
+    .imgabt .h2{
+        /* text-align: center; */
+    }
+    .imgabt .p{
+        /* text-align: center; */
+    }
+    .section4{
+        /* height: auto; */
+    }
+    .section4 .gellery{
+        /* height: auto; */
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .gellery .gellery1{
+        /* height: 700px; */
+        /* width: 100%; */
+    }
+    .gellery .gellery2{
+        /* height: 700px; */
+        /* width: 100%; */
+    }
+    .sec4abt{
+        height: auto;
+        /* width: 100%; */
+        /* bottom: 0; */
+    }
+    .sec4abt .h2{
+        /* font-size: 30px; */
+        /* text-align: center */
+    }
+    .sec4abt .p{
+        /* text-align: center; */
+    }
+    .section5{
+        height: auto;
+        width: 100%;
+    }
+    .section5 .p{
+        margin-top: 30px;
+    }
+    .section5 .h1{
+        font-size: 40px;
+        margin-top: -30px;
+    }
+    .section5 .info{
+        /* height: auto; */
+        /* width: inherit; */
+    }
+    .info .info1{
+        /* height: auto; */
+        /* width: 650px; */
+        /* margin-top: 15px; */
+        /* flex-direction: column; */
+    }
+    .info .info2{
+        /* height: auto; */
+        /* width: 650px; */
+        /* margin-top: 15px; */
+        /* flex-direction: column; */
+    }
+    .info input{
+        /* width: 90%; */
+        /* margin-top: 15px; */
+        /* border: none; */
+    }
+    .info .textarea{
+        /* width: 650px; */
+        /* margin-top: 15px; */
+    }
+    .section6{
+        /* height: auto; */
+        /* margin-top: 35px; */
+        /* flex-direction: column; */
+    }
+    .section6 .box{
+        /* width: 70%; */
+        /* margin-top: 15px; */
+    }
+}
+
+
+
+@media(max-width: 980px){
+    .navbar{
+        height: auto;
+    }
+     .log{
+        height: auto;
+        margin-right: 50px;
+    }
+    .navbar-brand .h3{
+        font-size: 19px;
+        margin-right: 250px;
+        
+    }
+    .navbar-toggler{
+        margin-right: 250px;
+    }
+    .section{
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+    .section .heading{
+        height: auto;
+        width: 100%;
+    }
+    .heading .h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .section .blank{
+        display: none;
+    }
+    .secbtn{
+        height: auto;
+        margin-left: 400px;
+    }
+    .section1{
+        height: auto;
+    }
+    .section1 .heading2{
+        height: auto;
+        margin-top: 28px;
+        text-align: center;
+    }.lable{
+        height: auto;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .lable-h1{
+       height: auto;
+       display: flex;
+       justify-content: space-evenly;
+       width: 30%;
+       margin-left: -400px;
+    }
+    .lable-h1 .text-light{
+        font-size: 30px;
+    }
+    .lable-p{
+        height: auto;
+        margin-top: 15px;
+        width: 60%;
+    }
+    .lable-p .text-light{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .sec1btn{
+        /* height: auto; */
+        margin-bottom: -50px;
+        margin-right: 300px;
+    }
+    .heading3{
+        height: auto;
+        margin-top: 30px;
+    }
+    .heading3 .h1{
+        font-size: 35px;
+    }   
+    .section2{
+        height: auto;
+        flex-direction: column;
+    }
+    .section2 .image{
+        width: 100%;
+        height: auto;
+    }
+    .section2 .sec2abt{
+        width: 100%;
+        height: auto;
+    }
+    .sec2abt p{
+        margin-top: 25px;
+    }
+    .section3{
+        height: auto;
+        flex-direction: column;
+    }
+    .section3 .sec3abt{
+        width: 100%;
+        height: auto;
+    }
+    .sec3abt .p{
+        margin-top: 25px;
+        text-align: center;
+    }
+    .sec3abt .p2{
+        text-align: center;
+    }
+    .sec3abt #sec3btn{
+         margin-left: 150px;
+    }
+    .sec3abt .h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .section3 .sec3img{
+        height: 800px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .imgabt{
+        height: 200px;
+        width: 100%;
+        bottom: 0;
+    }
+    .imgabt .h2{
+        text-align: center;
+    }
+    .imgabt .p{
+        text-align: center;
+    }
+    .section4{
+        height: auto;
+    }
+    .section4 .gellery{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .gellery .gellery1{
+        height: 700px;
+        width: 100%;
+    }
+    .gellery .gellery2{
+        height: 700px;
+        width: 100%;
+    }
+    .sec4abt{
+        height: auto;
+        width: 100%;
+        bottom: 0;
+    }
+    .sec4abt .h2{
+        font-size: 30px;
+        text-align: center
+    }
+    .sec4abt .p{
+        text-align: center;
+    }
+    .section5{
+        height: auto;
+        width: 100%;
+    }
+    .section5 .p{
+        margin-top: 30px;
+    }
+    .section5 .h1{
+        font-size: 40px;
+        margin-top: -30px;
+    }
+    .section5 .info{
+        height: auto;
+        width: inherit;
+    }
+    .info .info1{
+        height: auto;
+        width: 650px;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .info .info2{
+        height: auto;
+        width: 650px;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .info input{
+        width: 90%;
+        margin-top: 15px;
+        border: none;
+    }
+    .info .textarea{
+        width: 650px;
+        margin-top: 15px;
+    }
+    .section6{
+        height: auto;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .section6 .box{
+        width: 70%;
+        margin-top: 15px;
+    }
+    .modal{
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .modal-body{
+        height: auto;
+    }
+    .modal-foote input{
+        height: auto;
+        width: 200px;
+    }
+}
+
+
+
+@media(max-width: 720px){
+    .navbar{
+        height: auto;
+    }
+     .log{
+        height: auto;
+        margin-right: 50px;
+    }
+    .navbar-brand .h3{
+        font-size: 19px;
+        margin-right: 250px;
+        
+    }
+    .navbar-toggler{
+        margin-right: 250px;
+    }
+    .section{
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+    .section .heading{
+        height: auto;
+        width: 100%;
+    }.heading .h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section .blank{
+        display: none;
+    }
+    .secbtn{
+        height: auto;
+        margin-left: 260px;
+    }
+    .section1{
+        height: auto;
+    }
+    .section1 .heading2{
+        height: auto;
+        margin-top: 28px;
+        text-align: center;
+    }.lable{
+        height: auto;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .lable-h1{
+       height: auto;
+       display: flex;
+       justify-content: space-evenly;
+       width: 80%;
+    }
+    .lable-h1 .text-light{
+        font-size: 30px;
+    }
+    .lable-p{
+        height: auto;
+        width: 60%;
+    }
+    .lable-p .text-light{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .sec1btn{
+        /* height: auto; */
+        margin-bottom: -50px;
+        margin-right: 150px;
+    }
+    .heading3{
+        height: auto;
+        margin-top: 30px;
+    }
+    .heading3 .h1{
+        font-size: 35px;
+    }   
+    .section2{
+        height: auto;
+        flex-direction: column;
+    }
+    .section2 .image{
+        width: 100%;
+        height: auto;
+    }
+    .section2 .sec2abt{
+        width: 100%;
+        height: auto;
+    }
+    .sec2abt p{
+        margin-top: 25px;
+    }
+    .section3{
+        height: auto;
+        flex-direction: column;
+    }
+    .section3 .sec3abt{
+        width: 100%;
+        height: auto;
+    }
+    .sec3abt .p{
+        margin-top: 25px;
+        text-align: center;
+    }
+    .sec3abt .p2{
+        text-align: center;
+    }
+    .sec3abt #sec3btn{
+         margin-left: 150px;
+    }
+    .sec3abt .h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .section3 .sec3img{
+        height: 700px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .imgabt{
+        height: 200px;
+        width: 100%;
+        bottom: 0;
+    }
+    .imgabt .h2{
+        text-align: center;
+    }
+    .imgabt .p{
+        text-align: center;
+    }
+    .section4{
+        height: auto;
+    }
+    .section4 .gellery{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .gellery .gellery1{
+        height: 700px;
+        width: 100%;
+    }
+    .gellery .gellery2{
+        height: 700px;
+        width: 100%;
+    }
+    .sec4abt{
+        height: auto;
+        width: 100%;
+        bottom: 0;
+    }
+    .sec4abt .h2{
+        font-size: 30px;
+        text-align: center
+    }
+    .sec4abt .p{
+        text-align: center;
+    }
+    .section5{
+        height: auto;
+        width: 100%;
+    }
+    .section5 .p{
+        margin-top: 30px;
+    }
+    .section5 .h1{
+        font-size: 35px;
+        margin-top: -30px;
+    }
+    .section5 .info{
+        height: auto;
+        width: inherit;
+    }
+    .info .info1{
+        height: auto;
+        width: 650px;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .info .info2{
+        height: auto;
+        width: 650px;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .info input{
+        width: 90%;
+        margin-top: 15px;
+        border: none;
+    }
+    .info .textarea{
+        width: 650px;
+        margin-top: 15px;
+    }
+    .section6{
+        height: auto;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .section6 .box{
+        width: 70%;
+        margin-top: 15px;
+    }
+    .modal{
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .modal-body{
+        height: auto;
+    }
+    .modal-foote input{
+        height: auto;
+        width: 200px;
+    }
+}
+
+
+@media(max-width: 480px){
+    .navbar{
+        height: auto;
+    }
+     .log{
+        height: auto;
+        margin-right: 50px;
+    }
+    .navbar-brand .h3{
+        font-size: 19px;
+        margin-right: 250px;
+        
+    }
+    .navbar-toggler{
+        margin-right: 250px;
+    }
+    .section{
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+    .section .heading{
+        height: auto;
+        width: 100%;
+    }.heading .h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section .blank{
+        display: none;
+    }
+    .secbtn{
+        height: auto;
+        margin-left: 150px;
+    }
+    .section1{
+        height: auto;
+    }
+    .section1 .heading2{
+        height: auto;
+        margin-top: 28px;
+    }.lable{
+        height: auto;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .lable-h1{
+       height: auto;
+       display: flex;
+       justify-content: space-evenly;
+       width: 60%;
+    }
+    .lable-h1 .text-light{
+        font-size: 25px;
+    }
+    .lable-p{
+        height: auto;
+        width: 60%;
+    }
+    .lable-p .text-light{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .sec1btn{
+        /* height: auto; */
+        margin-bottom: -50px;
+        margin-right: 20px;
+    }
+    .heading3{
+        height: auto;
+        margin-top: 30px;
+    }
+    .heading3 .h1{
+        font-size: 35px;
+    }   
+    .section2{
+        height: auto;
+        flex-direction: column;
+    }
+    .section2 .image{
+        width: 100%;
+        height: auto;
+    }
+    .section2 .sec2abt{
+        width: 100%;
+        height: auto;
+    }
+    .sec2abt p{
+        margin-top: 25px;
+    }
+    .section3{
+        height: auto;
+        flex-direction: column;
+    }
+    .section3 .sec3abt{
+        width: 100%;
+        height: auto;
+    }
+    .sec3abt .p{
+        margin-top: 25px;
+        text-align: center;
+    }
+    .sec3abt .p2{
+        text-align: center;
+    }
+    .sec3abt #sec3btn{
+         float: center;
+    }
+    .sec3abt .h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .section3 .sec3img{
+        height: 500px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .imgabt{
+        height: 200px;
+        width: 100%;
+        bottom: 0;
+    }
+    .imgabt .h2{
+        text-align: center;
+    }
+    .imgabt .p{
+        text-align: center;
+    }
+    .section4{
+        height: auto;
+    }
+    .section4 .gellery{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .gellery .gellery1{
+        height: 500px;
+        width: 100%;
+    }
+    .gellery .gellery2{
+        height: 500px;
+        width: 100%;
+    }
+    .sec4abt{
+        height: auto;
+        width: 100%;
+        bottom: 0;
+    }
+    .sec4abt .h2{
+        font-size: 24px;
+        text-align: center
+    }
+    .sec4abt .p{
+        text-align: center;
+    }
+    .section5{
+        height: auto;
+        width: 100%;
+    }
+    .section5 .p{
+        margin-top: 30px;
+    }
+    .section5 .h1{
+        font-size: 35px;
+        margin-top: -30px;
+    }
+    .section5 .info{
+        height: auto;
+        width: inherit;
+    }
+    .info .info1{
+        height: auto;
+        width: 450px;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .info .info2{
+        height: auto;
+        width: 450px;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .info input{
+        width: 90%;
+        margin-top: 15px;
+        border: none;
+    }
+    .info .textarea{
+        width: 450px;
+        margin-top: 15px;
+    }
+    .section6{
+        height: auto;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .section6 .box{
+        width: 70%;
+        margin-top: 15px;
+    }
+    .modal{
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .modal-body{
+        height: auto;
+    }
+    .modal-foote input{
+        height: auto;
+        width: 200px;
+    }
+}

@@ -1,0 +1,603 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #f7e5d2;
+}
+.section{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section .title{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.title .headline{
+    height: 255px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20%;
+}
+.section .blank{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.choice{
+    height: 60px;
+    width: 360px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#secbtn{
+    transition: 0.5s;
+}
+#secbtn:hover{
+    background: #92b48680;
+    
+}
+.slider{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #60695d;
+}
+.section2{
+    height: 1770px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section2 .part{
+    height: 590px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.part .partabt{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.part .partimg{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.partimg img{
+    height: 100%;
+    width: 100%;
+}
+.partabt .abtbody{
+    /* border: 1px solid black; */
+}
+.body-btn{
+    height: 50px;
+    width: 150px;
+    /* border: 1px solid black; */
+    transition: 0.5s;
+}
+.body-btn:hover{
+    background-color: #60695d;
+    color: white;
+    transition: 0.5s;
+
+}
+.section3{
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #fbf2e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section3 .heading{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section3 .location{
+    height: 150px;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.location .time{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.section4{
+    height: 510px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.section5{
+    height: 415px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #404d3c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section5 .about{
+    height: 225px;
+    width: 26%;
+    /* border: 1px solid red; */
+}
+.mail{
+    height: 42px;
+    width: 308px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.mail input{
+    height: 100%;
+    width: 206px;
+    border: 1px solid white;
+    background-color: #404d3c;
+
+}
+.mail .mailbtn{
+    height: 100%;
+    width: 92px;
+    border: 1px solid white;
+    border-left: 0;
+    background-color: #404d3c;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+    /* ---------- Swiper Slider CSS -------- */
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #60695d;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* ---------- Swiper Slider CSS -------- */
+
+
+    /* <---- Swiper Slider -2 ----- > */
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      height: 100%;
+      background: #60695d;
+      line-height: 300px;
+      text-align: center;
+    }
+    .swiper-slide img{
+        height: 100%;
+        width: 100%;
+    }
+
+    /* .swiper-slide:nth-child(2) {
+      background: #8acc7d;
+    }
+
+    .swiper-slide:nth-child(3) {
+      background: #b7cc7d;
+    }
+
+    .swiper-slide:nth-child(4) {
+      background: #9eb75c;
+    }
+
+    .swiper-slide:nth-child(5) {
+      background: #7da8cc;
+    }
+
+    .swiper-slide:nth-child(6) {
+      background: #96cc7d;
+    }
+
+    .swiper-slide:nth-child(7) {
+      background: #cc7dae;
+    } */
+
+
+    /* <---- Swiper Slider -2 ----- > */
+
+
+    @media(max-width: 1400px){
+        .section{
+            height: auto;
+        }
+        .section .title{
+            height: auto;
+            width: 100%;
+            margin-bottom: 250px;
+        }
+        .section .blank{
+            display: none;
+        }
+        .choice{
+            height: auto;
+            /* width: 100%; */
+            /* justify-content: space-evenly; */
+
+        }
+        .section2{
+            height: auto;
+        }
+        .section2 .part{
+            height: auto;
+            /* flex-direction: column; */
+        }
+        .part .partabt{
+            height: auto;
+            /* width: 100%; */
+        }
+        .part .partimg{
+            height: auto;
+            /* width: 100%; */
+        }
+        .section3{
+            height: auto;
+        }
+        .section3 .location{
+            height: auto;
+            width: 100%;
+            /* flex-direction: column; */
+        }
+        .section4{
+            height: 300px;
+        }
+        .section5{
+            height: auto;
+            /* flex-direction: column; */
+        }
+        .section5 .about{
+            height: auto;
+            width: 100%;
+            display: none;
+            text-align: start;
+        }
+        #about-1{
+            margin-left: 20px;
+        } 
+         #about-2{
+            margin-left: 80px;
+        }
+    }
+
+
+    @media(max-width: 1200px){
+        .section{
+            height: auto;
+        }
+        .section .title{
+            height: auto;
+            width: 100%;
+        }
+        .section .blank{
+            display: none;
+        }
+        .choice{
+            height: auto;
+            /* width: 100%; */
+            /* justify-content: space-evenly; */
+
+        }
+        .section2{
+            height: auto;
+        }
+        .section2 .part{
+            height: auto;
+            /* flex-direction: column; */
+        }
+        .part .partabt{
+            height: auto;
+            /* width: 100%; */
+        }
+        .part .partimg{
+            height: auto;
+            /* width: 100%; */
+        }
+        .section3{
+            height: auto;
+        }
+        .section3 .location{
+            height: auto;
+            width: 100%;
+            /* flex-direction: column; */
+        }
+        .section4{
+            height: 300px;
+        }
+        .section5{
+            height: auto;
+            /* flex-direction: column; */
+        }
+        .section5 .about{
+            height: auto;
+            width: 100%;
+            display: none;
+            text-align: start;
+        }
+        #about-1{
+            margin-left: 20px;
+        } 
+         #about-2{
+            margin-left: 80px;
+        }
+    }
+
+
+    @media(max-width: 980px){
+        .section{
+            height: auto;
+        }
+        .section .title{
+            height: auto;
+            width: 100%;
+        }
+        .section .blank{
+            display: none;
+        }
+        .choice{
+            height: auto;
+            /* width: 100%; */
+            /* justify-content: space-evenly; */
+
+        }
+        .section2{
+            height: auto;
+        }
+        .section2 .part{
+            height: auto;
+            /* flex-direction: column; */
+        }
+        .part .partabt{
+            height: auto;
+            /* width: 100%; */
+        }
+        .part .partimg{
+            height: auto;
+            /* width: 100%; */
+        }
+        .section3{
+            height: auto;
+        }
+        .section3 .location{
+            height: auto;
+            width: 100%;
+            /* flex-direction: column; */
+        }
+        .section4{
+            height: 300px;
+        }
+        .section5{
+            height: auto;
+            /* flex-direction: column; */
+        }
+        .section5 .about{
+            height: auto;
+            width: 100%;
+            display: none;
+            text-align: start;
+        }
+        #about-1{
+            margin-left: 20px;
+        } 
+         #about-2{
+            margin-left: 80px;
+        }
+    }
+
+
+    @media(max-width:720px){
+        .section{
+            height: auto;
+        }
+        .section .title{
+            height: auto;
+            width: 100%;
+        }
+        .section .blank{
+            display: none;
+        }
+        .choice{
+            height: auto;
+            width: 100%;
+            justify-content: space-evenly;
+
+        }
+        .section2{
+            height: auto;
+        }
+        .section2 .part{
+            height: auto;
+            flex-direction: column;
+        }
+        .part .partabt{
+            height: auto;
+            width: 100%;
+        }
+        .part .partimg{
+            height: auto;
+            width: 100%;
+        }
+        .section3{
+            height: auto;
+        }
+        .section3 .location{
+            height: auto;
+            width: 100%;
+            flex-direction: column;
+        }.location .time{
+            border: 1px solid black;
+            border-top: 0;
+             border-left: 0;
+            border-right: 0;
+        }
+        .section4{
+            height: 300px;
+        }
+        .section5{
+            height: auto;
+            flex-direction: column;
+        }
+        .section5 .about{
+            height: auto;
+            width: 80%;
+            display: none;
+            text-align: start;
+        }
+        #about-1{
+            margin-left: 200px;
+        }
+        #about-2{
+            margin-left: 200px;
+        }
+    }
+
+
+
+    @media(max-width:480px){
+        .section{
+            height: auto;
+        }
+        .section .title{
+            height: auto;
+            width: 100%;
+        }
+        .section .blank{
+            display: none;
+        }
+        .choice{
+            height: auto;
+            width: 100%;
+            justify-content: space-evenly;
+
+        }
+        .section2{
+            height: auto;
+        }
+        .section2 .part{
+            height: auto;
+            flex-direction: column;
+        }
+        .part .partabt{
+            height: auto;
+            width: 100%;
+        }
+        .part .partimg{
+            height: auto;
+            width: 100%;
+        }
+        .section3{
+            height: auto;
+        }
+        .section3 .location{
+            height: auto;
+            width: 100%;
+            flex-direction: column;
+        }
+        .location .time{
+            border: 1px solid black;
+            border-top: 0;
+             border-left: 0;
+            border-right: 0;
+        }
+        .section4{
+            height: 300px;
+        }
+        .section5{
+            height: auto;
+            flex-direction: column;
+        }
+        .section5 .about{
+            height: auto;
+            width: 80%;
+            display: none;
+            text-align: start;
+        }
+        #about-1{
+            margin-left: 40px;
+        }
+        #about-2{
+            margin-left: 110px;
+        }
+    }

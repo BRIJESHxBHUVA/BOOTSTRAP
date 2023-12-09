@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>About - Brijesh Personal Portfolio</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            /* align-items: center; */
+            /* justify-content: space-evenly; */
+            position: relative;
+            background: #111111;
+        }
+        .navbar{
+            display: none;
+        }
+         img{
+            display: none;
+        }
+        .front{
+            height: auto;
+            width: 88%;
+            /* border: 1px solid black; */
+        }
+        aside{
+            height: 100vh;
+            width: 12%;
+            /* border: 1px solid red; */
+            position: absolute;
+            position: fixed;
+            right: 0;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .icon{
+        height: 350px;
+        width: auto;
+        /* border: 1px solid white; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .icon .social{
+        height: 50px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* border: 1px solid #111111; */
+        /* background-color: #ffb400; */
+        color: white;
+        font-size: 20px;
+        /* border-radius: 50%; */
+        position: relative;
+        overflow: hidden;
+         border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        
+    }
+    .social::before{
+        content: "HOME";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb400;
+        width: 100%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .social:hover.social::before{
+        transform: translateX(0);
+    }
+    .social i{
+        /* border: 1px solid black; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #2b2a2a;
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .social i:hover{
+        background-color: #ffb400;
+        transition: 0.3s;
+    }
+    .icon .social2{
+        height: 50px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px solid #111111;
+        /* background-color: #ffb400; */
+        color: white;
+        font-size: 20px;
+        /* border-radius: 50%; */
+        position: relative;
+        overflow: hidden;
+         border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .social2::before{
+        content: "ABOUT";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb400;
+        width: 100%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .social2:hover.social2::before{
+        transform: translateX(0);
+    }
+    .social2 i{
+        /* border: 1px solid black; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #ffb400;
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .social2 i:hover{
+        background-color: #ffb400;
+        transition: 0.3s;
+    }
+    .icon .social3{
+        height: 50px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* border: 1px solid #111111; */
+        /* background-color: #ffb400; */
+        color: white;
+        font-size: 20px;
+        /* border-radius: 50%; */
+        overflow: hidden;
+        position: relative;
+         border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .social3::before{
+        content: "PORTFOLIO";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb400;
+        width: 100%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 15px;
+
+    }
+    .social3:hover.social3::before{
+        transform: translateX(0);
+    }
+    .social3 i{
+        /* border: 1px solid black; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #2b2a2a;
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .social3 i:hover{
+        background-color: #ffb400;
+        transition: 0.3s;
+    }
+    .icon .social4{
+        height: 50px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* border: 1px solid #111111; */
+        /* background-color: #ffb400; */
+        color: white;
+        font-size: 20px;
+        /* border-radius: 50%; */
+        position: relative;
+        overflow: hidden;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .social4::before{
+        content: "CONTACT";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb400;
+        width: 100%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 15px;
+
+    }
+    .social4:hover.social4::before{
+        transform: translateX(0);
+    }
+    .social4 i{
+        /* border: 1px solid black; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #2b2a2a;
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .social4 i:hover{
+        background-color: #ffb400;
+        transition: 0.3s;
+    }
+    .icon .social5{
+        height: 50px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* border: 1px solid #111111; */
+        /* background-color: #ffb400; */
+        color: white;
+        font-size: 20px;
+        /* border-radius: 50%; */
+        overflow: hidden;
+        position: relative;
+         border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .social5::before{
+        content: "BLOG";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb400;
+        width: 100%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .social5:hover.social5::before{
+        transform: translateX(0);
+    }
+    .social5 i{
+        /* border: 1px solid black; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #2b2a2a;
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .social5 i:hover{
+        background-color: #ffb400;
+        transition: 0.3s;
+    }
+        .hdr{
+            height: 150px;
+            width: 100%;
+            /* border: 1px solid white; */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .info{
+            height: 400px;
+            width: 100%;
+            /* border: 1px solid white; */
+        }
+        .type {
+         height: 53px;
+        width: 235px;
+        position: relative;
+        /* margin-left: 25px; */
+        /* margin-bottom: 15px; */
+        margin-top: 20px;
+        overflow: hidden;
+        border: 1px solid #ffb400;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-color: #111111;
+    }
+    .type p{
+        /* margin-left: -40px; */
+        left: 15%;
+        top: 25%;
+        position: absolute;
+        /* margin-top: -35px; */
+        color: white;
+        font-weight: bold;
+    }
+    .right{
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        right: 0;
+        top: 0;
+        font-size: 25px;
+        color: white;
+        background-color: #ffb400;
+        /* border: 1px solid white; */
+        border-radius: 50%;
+    }
+    .type::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffb400;
+        width: 100%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s;
+
+    }
+    .type:hover.type::before{
+        transform: translateX(0);
+    }
+    .achive-A{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .achive-B{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .box{
+        height: 80%;
+        width: 40%;
+        border: 1px solid gray;
+        border-radius: 15px;
+    }
+    .skill{
+        height: 545px;
+        width: 100%;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .skillpart{
+        height: 80%;
+        width: 60%;
+        /* border: 1px solid white; */
+    }
+    .skill-A{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .skill-B{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .progress-bar {
+    background: #111111; 
+     width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: 
+    radial-gradient(closest-side, #111111 79%, transparent 80% 100%),
+    conic-gradient(#ffb400 85%, #1d1d1d 0);    
+} 
+   .round-2 .progress-bar {
+    background: #111111; 
+     width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: 
+    radial-gradient(closest-side, #111111 79%, transparent 80% 100%),
+    conic-gradient(#ffb400 25%, #1d1d1d 0);    
+} 
+    .round-3 .progress-bar {
+    background: #111111; 
+     width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: 
+    radial-gradient(closest-side, #111111 79%, transparent 80% 100%),
+    conic-gradient(#ffb400 75%, #1d1d1d 0);    
+}
+  .round-4 .progress-bar {
+    background: #111111; 
+     width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: 
+    radial-gradient(closest-side, #111111 79%, transparent 80% 100%),
+    conic-gradient(#ffb400 15%, #1d1d1d 0);    
+}
+.round-5 .progress-bar {
+    background: #111111; 
+     width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: 
+    radial-gradient(closest-side, #111111 79%, transparent 80% 100%),
+    conic-gradient(#ffb400 45%, #1d1d1d 0);    
+}
+.round-6 .progress-bar {
+    background: #111111; 
+     width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: 
+    radial-gradient(closest-side, #111111 79%, transparent 80% 100%),
+    conic-gradient(#ffb400 15%, #1d1d1d 0);    
+}
+.round-7 .progress-bar {
+    background: #111111; 
+     width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: 
+    radial-gradient(closest-side, #111111 79%, transparent 80% 100%),
+    conic-gradient(#ffb400 75%, #1d1d1d 0);    
+}
+.round-8 .progress-bar {
+    background: #111111; 
+     width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: 
+    radial-gradient(closest-side, #111111 79%, transparent 80% 100%),
+    conic-gradient(#ffb400 15%, #1d1d1d 0);    
+}
+.education{
+    height: 660px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.edu{
+    height: 480px;
+    width: 60%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.edu_1{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.edu_2{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.edu_3{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.edu-min{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ico{
+    height: 100%;
+    width: 10%;
+    /* border: 1px solid white; */
+}
+.edu-abt{
+    height: 100%;
+    width: 90%;
+    /* border: 1px solid white; */
+}
+.font{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    background-color: #ffb400;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.vr{
+    height: 80px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 8px black;
+}
+.date{
+    height: 20px;
+    width: 105px;
+    /* border: 1px solid white; */
+    border-radius: 30px;
+    background-color: #212121;
+}
+
+
+
+
+@media(max-width: 1400px){
+    body{
+        /* flex-direction: column; */
+    }
+    /* .hdr h1{
+        display: none;
+    } */
+    /* .navbar{
+            display: block;
+        } */
+        .hdr{
+            height: auto;
+        }
+    /* .hdr img{
+            display: block;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        } */
+    .front{
+        height: auto;
+        /* width: 100%; */
+        /* overflow: hidden; */
+    }
+    aside{
+        /* height: auto; */
+        width: auto;
+        /* display: none; */
+    }
+    .info{
+        height: auto;
+        width: 100%;
+    }
+    .info .container{
+        height: auto;
+        width: 500px;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .info-1{
+        width: 500px;
+    }
+    .personal{
+        height: auto;
+        /* flex-direction: column; */
+    }
+    .skill{
+        height: auto;
+        /* flex-direction: column; */
+    }
+    .skill .skillpart{
+        height: auto;
+        width: 100%;
+    }
+    .skill-A{
+        height: auto;
+        /* width: 50%; */
+        /* flex-direction: column; */
+        /* float: left; */
+    }
+    .skill-B{
+        height: auto;
+        /* width: 50%; */
+        /* float: left; */
+    }
+    .education{
+        height: auto;
+    }
+    .education .edu{
+        height: auto;
+        width: 100%;
+    }
+    .edu .edu_1{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .edu .edu_2{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .edu .edu_3{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .edu_1 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_2 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_3 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu-min .ico{
+        height: auto;
+    }
+    .ico .font{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
+
+
+
+@media(max-width: 1200px){
+    body{
+        /* flex-direction: column; */
+    }
+    /* .hdr h1{
+        display: none;
+    } */
+    /* .navbar{
+            display: block;
+        } */
+        .hdr{
+            height: auto;
+        }
+    /* .hdr img{
+            display: block;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        } */
+    .front{
+        height: auto;
+        /* width: 100%; */
+        /* overflow: hidden; */
+    }
+    aside{
+        /* height: auto; */
+        width: auto;
+        /* display: none; */
+    }
+    .info{
+        height: auto;
+        width: 100%;
+    }
+    .info .container{
+        height: auto;
+        width: 500px;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .info-1{
+        width: 500px;
+    }
+    .personal{
+        height: auto;
+        /* flex-direction: column; */
+    }
+    .skill{
+        height: auto;
+        /* flex-direction: column; */
+    }
+    .skill .skillpart{
+        height: auto;
+        width: 100%;
+    }
+    .skill-A{
+        height: auto;
+        /* width: 50%; */
+        /* flex-direction: column; */
+        /* float: left; */
+    }
+    .skill-B{
+        height: auto;
+        /* width: 50%; */
+        /* float: left; */
+    }
+    .education{
+        height: auto;
+    }
+    .education .edu{
+        height: auto;
+        width: 100%;
+    }
+    .edu .edu_1{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .edu .edu_2{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .edu .edu_3{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .edu_1 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_2 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_3 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu-min .ico{
+        height: auto;
+    }
+    .ico .font{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
+
+
+
+
+@media(max-width: 980px){
+    body{
+        flex-direction: column;
+    }
+    .hdr h1{
+        display: none;
+    }
+    .navbar{
+            display: block;
+        }
+        .hdr{
+            height: auto;
+        }
+    .hdr img{
+            display: block;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+    .front{
+        height: auto;
+        width: 100%;
+        /* overflow: hidden; */
+    }
+    aside{
+        display: none;
+    }
+    .info{
+        height: auto;
+        width: 100%;
+    }
+    .info .container{
+        height: auto;
+        width: 500px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .info-1{
+        width: 500px;
+    }
+    .personal{
+        height: auto;
+        flex-direction: column;
+    }
+    .skill{
+        height: auto;
+        flex-direction: column;
+    }
+    .skill .skillpart{
+        height: auto;
+        width: 100%;
+    }
+    .skill-A{
+        height: auto;
+        width: 50%;
+        flex-direction: column;
+        float: left;
+    }
+    .skill-B{
+        height: auto;
+        width: 50%;
+        float: left;
+    }
+    .education{
+        height: auto;
+    }
+    .education .edu{
+        height: auto;
+        width: 100%;
+    }
+    .edu .edu_1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu .edu_2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu .edu_3{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu_1 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_2 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_3 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu-min .ico{
+        height: auto;
+    }
+    .ico .font{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+
+
+
+@media(max-width: 720px){
+    body{
+        flex-direction: column;
+    }
+    .hdr h1{
+        display: none;
+    }
+    .navbar{
+            display: block;
+        }
+        .hdr{
+            height: auto;
+        }
+    .hdr img{
+            display: block;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+    .front{
+        height: auto;
+        width: 100%;
+        /* overflow: hidden; */
+    }
+    aside{
+        display: none;
+    }
+    .info{
+        height: auto;
+        width: 100%;
+    }
+    .info .container{
+        height: auto;
+        width: 500px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .info-1{
+        width: 500px;
+    }
+    .personal{
+        height: auto;
+        flex-direction: column;
+    }
+    .skill{
+        height: auto;
+        flex-direction: column;
+    }
+    .skill .skillpart{
+        height: auto;
+        width: 100%;
+    }
+    .skill-A{
+        height: auto;
+        width: 50%;
+        flex-direction: column;
+        float: left;
+    }
+    .skill-B{
+        height: auto;
+        width: 50%;
+        float: left;
+    }
+    .education{
+        height: auto;
+    }
+    .education .edu{
+        height: auto;
+        width: 100%;
+    }
+    .edu .edu_1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu .edu_2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu .edu_3{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu_1 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_2 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_3 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu-min .ico{
+        height: auto;
+    }
+    .ico .font{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+
+
+@media(max-width: 480px){
+    body{
+        flex-direction: column;
+    }
+    .hdr h1{
+        display: none;
+    }
+    .navbar{
+            display: block;
+        }
+        .hdr{
+            height: auto;
+        }
+    .hdr img{
+            display: block;
+            height: 200px;
+            width: 200px;
+            padding: 50px
+            border-radius: 50%;
+        }
+    .front{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    aside{
+        display: none;
+    }
+    .info{
+        height: auto;
+        margin-top: 50px;
+    }
+    .info .container{
+        height: auto;
+        width: 1000px;
+        flex-direction: column;
+    }
+    .personal{
+        height: auto;
+        flex-direction: column;
+    }
+    .skill{
+        height: auto;
+        flex-direction: column;
+    }
+    .skill .skillpart{
+        height: auto;
+        width: 100%;
+    }
+    .skill-A{
+        height: auto;
+        width: 50%;
+        flex-direction: column;
+        float: left;
+    }
+    .skill-B{
+        height: auto;
+        width: 50%;
+        float: left;
+    }
+    .education{
+        height: auto;
+    }
+    .education .edu{
+        height: auto;
+        width: 100%;
+    }
+    .edu .edu_1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu .edu_2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu .edu_3{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .edu_1 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_2 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu_3 .edu-min{
+        height: auto;
+        width: 90%;
+    }
+    .edu-min .ico{
+        height: auto;
+    }
+    .ico .font{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <header class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <h3 class="fw-bold text-light">ABOUT ME</h3>
+            </div>
+            <button class="navbar-toggler btn bg-secondary border-3 border-light" data-bs-toggle="collapse"
+                data-bs-target="#navbar-support">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbar-support">
+                <ul class="navbar-nav text-center m-auto">
+                    <li class="nav-item active"><a href="Index.html" class="nav-link ms-3"
+                            style="color: #ffd97a;">HOME</a></li>
+                    <li class="nav-item"><a href="" class="nav-link ms-3 text-light">ABOUT</a></li>
+                    <li class="nav-item"><a href="" class="nav-link ms-3 text-light">PORTFOLIO</a></li>
+                    <li class="nav-item"><a href="" class="nav-link ms-3 text-light">CONTACT</a></li>
+                    <li class="nav-item"><a href="" class="nav-link ms-3 text-light">BLOG</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>   
+
+
+    <div class="front">
+    <div class="hdr">
+        <img src="image/home-bg-free-img-2.jpeg" alt="">
+        <h1 class="display-5 fw-bold text-light">ABOUT <b class="text-warning fw-bold display-5">ME</b></h1>
+    </div>
+    <div class="info">
+        <div class="container h-100 d-flex">
+            <div class="Personal w-50 h-100">
+                <h2 class="text-light fw-bold">PERSONAL INFOS</h2><br>
+                <div class="info-1 w-50 float-start">
+                <p class="text-secondary fw-bold">First Name : <font class="text-light"> Brijesh</font></p>
+                <p class="text-secondary fw-bold">Last Name : <font class="text-light"> Bhuva</font></p>
+                <p class="text-secondary fw-bold">Age : <font class="text-light"> 21 Years</font></p>
+                <p class="text-secondary fw-bold">Nationality : <font class="text-light"> Indian</font></p>
+                <p class="text-secondary fw-bold">Freelance : <font class="text-light"> Available</font></p>
+            
+            </div>
+
+            <div class="info-1 w-50 float-start">
+                <p class="text-secondary fw-bold">Address : <font class="text-light"> Rajkot, Gujarat</font></p>
+                <p class="text-secondary fw-bold">Phone: <font class="text-light"> +91 9104685175</font></p>
+                <p class="text-secondary fw-bold">Email : <font class="text-light"> bhuvabrijesh14@gmail.com</font></p>
+                <p class="text-secondary fw-bold">Skype : <font class="text-light"> brijesh.bhuva</font></p>
+                <p class="text-secondary fw-bold">Languages : <font class="text-light"> Gujarati, English, Hindi</font></p>
+            </div>
+
+            <button class="type">
+                    
+                <div class="right">
+                    
+                    <i class="fa-solid fa-download"></i>
+                </div>
+                <p>DOWNLOAD CV</p>
+            </button>
+            
+        </div>
+        <div class="achive w-50 h-100">
+            <div class="achive-A">
+            <div class="box">
+               
+                <h1 class="fw-bold display-5 ms-5 mt-2" style="color: #ffb400;">12<sup>+</sup></h1>
+                <center>
+                <p class="text-light">____ YEAR OF <BR>EXPERIENCE</p>
+                </center>
+            </div>
+            <div class="box">
+                <h1 class="fw-bold display-5 ms-5 mt-2" style="color: #ffb400;">97<sup>+</sup></h1>
+                <center>
+                <p class="text-light">____ COMPLETED <BR>PROJECTS</p>
+                </center>
+            </div>
+            </div>
+            <div class="achive-B">
+            <div class="box">
+                <h1 class="fw-bold display-5 ms-5 mt-2" style="color: #ffb400;">81<sup>+</sup></h1>
+                <center>
+                <p class="text-light">____ HAPPY <BR>CUSTOMERS</p>
+                </center>
+            </div>
+            <div class="box">
+                <h1 class="fw-bold display-5 ms-5 mt-2" style="color: #ffb400;">53<sup>+</sup></h1>
+                <center>
+                <p class="text-light">____ AWARDS <BR>WON</p>
+                </center>
+            </div>
+        </div>
+
+        </div>
+       
+    </div>
+    <center>
+        <hr style="height: 2px; width: 450px;" class="bg-secondary">
+    </center>
+    <div class="skill">
+        <h2 class="text-light fw-bold">MY SKILLS</h2>
+        <div class="skillpart">
+            <div class="skill-A">
+                <div class="round">
+                    <center>
+                    <div class="progress-bar text-light">85%
+                    <progress value="85" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                    </div><br>
+                   <p class="text-light fs-5">HTMl</p>
+                </center>
+                </div>
+                <div class="round-2">
+                    <center>
+                        <div class="progress-bar text-light">25%
+                        <progress value="25" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                        </div><br>
+                        <p class="text-light fs-5">JAVASCRIPT</p>
+                    </center>
+                </div>
+                <div class="round-3">
+                    <center>
+                        <div class="progress-bar text-light">75%
+                        <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                        </div><br>
+                        <p class="text-light fs-5">CSS</p>
+                    </center>
+                </div>
+                <div class="round-4">
+                    <center>
+                        <div class="progress-bar text-light">15%
+                        <progress value="25" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                        </div><br>
+                        <p class="text-light fs-5">PHP</p>
+                    </center>
+                </div>
+            </div>
+            <div class="skill-A">
+
+                <div class="round-5">
+                    <center>
+                    <div class="progress-bar text-light">45%
+                    <progress value="85" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                    </div><br>
+                   <p class="text-light fs-5">WORDPRESS</p>
+                </center>
+                </div>
+                <div class="round-6">
+                    <center>
+                        <div class="progress-bar text-light">15%
+                        <progress value="25" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                        </div><br>
+                        <p class="text-light fs-5">REACT</p>
+                    </center>
+                </div>
+                <div class="round-7">
+                    <center>
+                        <div class="progress-bar text-light">75%
+                        <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                        </div><br>
+                        <p class="text-light fs-5">JQUERY</p>
+                    </center>
+                </div>
+                <div class="round-8">
+                    <center>
+                        <div class="progress-bar text-light">15%
+                        <progress value="25" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                        </div><br>
+                        <p class="text-light fs-5">ANGULAR</p>
+                    </center>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="education">
+        <h3 class="fw-bold text-light">EXPERIENCE & EDUCATION</h3>
+        <div class="edu">
+            <div class="edu_1">
+                <div class="edu-min">
+                    <div class="ico">
+                        <div class="font">
+                        <i class="fa-solid fa-briefcase" style="color: white; font-size: 20px;"></i>
+                    </div>
+                    <center>
+                    <div class="vr"></div>
+                </center>
+                    </div>
+                    <div class="edu-abt">
+                        <div class="date ms-3"> <p class="text-secondary fw-bold ms-1" style="font-size: 12px;">2018 - PRESENT</p></div>
+                        <h5 class="mt-2 ms-3 text-light">WEB DEVLOPER - ENVATO</h5>
+                        <p class="mt-2 ms-3 text-light">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore<br> adipisicing elit,</p>
+                    </div>
+                </div>
+                <div class="edu-min">
+                    <div class="ico">
+                        <div class="font">
+                            <i class="bi bi-mortarboard-fill" style="color: white; font-size: 20px;"></i>                        <!-- <i class="fa-solid fa-briefcase" style="color: white; font-size: 20px;"></i> -->
+                    </div>
+                    <center>
+                    <div class="vr"></div>
+                </center>
+                    </div>
+                    <div class="edu-abt">
+                        <div class="date ms-3"> <p class="text-secondary fw-bold ms-1" style="font-size: 12px;">2018 - PRESENT</p></div>
+                        <h5 class="mt-2 ms-3 text-light">WEB DEVLOPER - ENVATO</h5>
+                        <p class="mt-2 ms-3 text-light">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore<br> adipisicing elit,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="edu_2">
+                <div class="edu-min">
+                    <div class="ico">
+                        <div class="font">
+                            
+                        <i class="fa-solid fa-briefcase" style="color: white; font-size: 20px;"></i>
+                    </div>
+                    <center>
+                    <div class="vr"></div>
+                </center>
+                    </div>
+                    <div class="edu-abt">
+                        <div class="date ms-3"> <p class="text-secondary fw-bold ms-1" style="font-size: 12px;">2013 - 2018</p></div>
+                        <h5 class="mt-2 ms-3 text-light">UI/UX DESIGNER THEMEFOREST</h5>
+                        <p class="mt-2 ms-3 text-light">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore<br> adipisicing elit,</p>
+                    </div>
+                </div>
+                <div class="edu-min">
+                    <div class="ico">
+                        <div class="font">
+                            <i class="bi bi-mortarboard-fill" style="color: white; font-size: 20px;"></i>
+                        <!-- <i class="fa-solid fa-briefcase" style="color: white; font-size: 20px;"></i> -->
+                    </div>
+                    <center>
+                    <div class="vr"></div>
+                </center>
+                    </div>
+                    <div class="edu-abt">
+                        <div class="date ms-3"> <p class="text-secondary fw-bold ms-1" style="font-size: 12px;">2018 - PRESENT</p></div>
+                        <h5 class="mt-2 ms-3 text-light">WEB DEVLOPER - ENVATO</h5>
+                        <p class="mt-2 ms-3 text-light">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore<br> adipisicing elit,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="edu_3">
+                <div class="edu-min">
+                    <div class="ico">
+                        <div class="font">
+                        <i class="fa-solid fa-briefcase" style="color: white; font-size: 20px;"></i>
+                    </div>
+                    <center>
+                    <div class="vr"></div>
+                </center>
+                    </div>
+                    <div class="edu-abt">
+                        <div class="date ms-3"> <p class="text-secondary fw-bold ms-1" style="font-size: 12px;">2005 - 2013</p></div>
+                        <h5 class="mt-2 ms-3 text-light">CONSULTANT VIDEOHIVE</h5>
+                        <p class="mt-2 ms-3 text-light">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore<br> adipisicing elit,</p>
+                    </div>
+                </div>
+                <div class="edu-min">
+                    <div class="ico">
+                        <div class="font">
+                            <i class="bi bi-mortarboard-fill" style="color: white; font-size: 20px;"></i>
+                            <!-- <i class="fa-duotone fa-graduation-cap" style="color: white; font-size: 20px;"></i> -->
+
+                        <!-- <i class="fa-solid fa-briefcase" style="color: white; font-size: 20px;"></i> -->
+                    </div>
+                    <center>
+                    <div class="vr"></div>
+                </center>
+                    </div>
+                    <div class="edu-abt">
+                        <div class="date ms-3"> <p class="text-secondary fw-bold ms-1" style="font-size: 12px;">2009</p></div>
+                        <h5 class="mt-2 ms-3 text-light">BACHELOR DEGREE TUNIS HIGH SCHOOL</h5>
+                        <p class="mt-2 ms-3 text-light">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore<br> adipisicing elit,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <aside>
+        <div class="icon">
+            <a href="Index.html">
+            <div class="social m-auto mt-2">
+                <i class="fa-solid fa-house-chimney"></i>
+            </div>
+        </a>
+        <a href="About.html">
+            <div class="social2 m-auto mt-3">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </a>
+        <a href="PORTFOLIO.html">
+            <div class="social3 m-auto mt-3">
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+        </a>
+        <a href="CONTACT.html">
+            <div class="social4 m-auto mt-3">
+                <i class="fa-solid fa-envelope-open"></i>
+            </div>
+        </a>
+        <a href="BLOG.html">
+            <div class="social5 m-auto mt-3">
+                <i class="fa-solid fa-comments"></i>
+            </div>
+        </a>
+        </div>
+    </aside>
+
+
+
+
+</body>
+</html>
